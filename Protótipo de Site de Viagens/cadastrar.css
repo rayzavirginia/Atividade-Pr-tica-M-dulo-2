@@ -1,0 +1,189 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    background-color:rgb(33, 118, 255);
+    justify-content: space-between;
+    color: white;
+}
+
+.logo img{
+    margin: 10px 10px 10px 20px;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu button{
+    margin: 20px 10px 10px 10px;
+    height: 40px;
+}
+
+.menu p{
+    margin: 30px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu img{
+    margin-right:10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(253, 202, 64);
+}
+
+nav button{
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(51, 161, 253);
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(197, 229, 254);
+    color: rgb(49, 57, 60,);
+    width:100%;
+    height: 930px;
+}
+.vale-presente img{
+    height: 350px;
+    width: 900px;
+    margin-top: 40px;
+}
+
+article h2{
+    margin-top: 40px;
+}
+
+.formulario{
+    margin: 50px 50px 50px 50px;
+    text-align: start;
+}
+
+.email{
+    
+    background-color:rgb(247, 152, 36);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email h4{
+    color: white;
+}
+
+.email2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.email2 input{
+    width: 400px;
+    border-radius: 7px;
+
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 118, 255);
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    margin-top: 50px;
+
+}
+
+.endereco{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+.rodape button{
+    background-color:rgb(33, 118, 255);
+    border: none;
+    border-radius: 7px;
+}
+
+.rodape a{
+    color: white;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.rodape a:hover{
+    background-color:rgb(13, 90, 212) ;
+}
+
+.rodape button:hover{
+    background-color:rgb(13, 90, 212) ;
+}
+
+@media screen and (max-width:900px){
+    header {flex-direction: column;
+            align-items: center;
+    }
+    
+    nav button{
+        margin: 12px 5px 12px 5px;
+        height: 65px;
+    }
+
+    .logo img{
+        margin-bottom:5px;
+        margin-top: 13px;
+    }
+
+    article{
+        height: 1210px;
+    }
+
+    .vale-presente img{
+     height: 230px;
+     width: 470px;
+     margin-top: 20px;
+    }
+    
+    article h2{
+        margin-top: 20px;
+    }
+    
+    .formulario{
+        margin-top: 20px;
+    }
+
+    .email{
+        height: 150px;
+    }
+
+    .email2{
+        margin-bottom: 7px;
+    }
+
+    .email input{
+        width: 300px;
+    }
+
+    .rodape{
+        height: 180px;
+    }
+}
