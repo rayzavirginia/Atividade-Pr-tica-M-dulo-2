@@ -1,0 +1,1 @@
+O site só está responsivo no navegador Chrome.
