@@ -39,6 +39,7 @@ header{
 .menu img{
     margin-right:10px;
 }
+
 nav{
     display: flex;
     justify-content: center;
@@ -50,14 +51,13 @@ nav button{
     background-color: rgb(51, 161, 253);
 }
 
-
 article{
     display: flex;
     flex-direction: column;
     background-color:rgb(197, 229, 254);
     color: rgb(49, 57, 60,);
     width:100%;
-    height: 930px;
+    height: 950px;
 }
 .vale-presente img{
     height: 350px;
@@ -72,6 +72,7 @@ article h2{
 .formulario{
     margin: 50px 50px 50px 50px;
     text-align: start;
+    margin-bottom: 10px;
 }
 
 .email{
@@ -159,7 +160,7 @@ article h2{
 
     .vale-presente img{
      height: 230px;
-     width: 470px;
+     width: 400px;
      margin-top: 20px;
     }
     
@@ -180,7 +181,7 @@ article h2{
     }
 
     .email input{
-        width: 300px;
+        width: 280px;
     }
 
     .rodape{
