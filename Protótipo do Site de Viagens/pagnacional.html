@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Férias.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="imagens/feriasicone.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="pagnacional.css">
+    <script src="pagnacional.js" defer></script>
+</head>
+
+<body>
+    <main>
+<!-----------------------------------------------------------CABEÇALHO---------------------------------------------------->
+<header>
+  <nav class="nav-bar">
+    <div class="logo"><a href="principal.html"><img src="imagens/logo feriascom.svg" alt="logoferias"></a></div>
+
+      <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="principal.html" class="nav-link"><i class="fa-solid fa-house"></i>Inicio</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-earth-americas"></i>Destinos</a></li>
+              <li class="nav-item"><a href="cadastrar.html" class="nav-link"><i class="fa-solid fa-gift"></i>Promoções</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+          </ul>
+      </div>
+      
+      <div class="login-cadastro">
+      <div class="login-button">
+        <button><a href="#">Cadastrar</a></button>
+      </div>
+
+      <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+      </div>
+      </div>
+
+      <div class="mobile-menu-icon">
+          <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg" alt=""></button>
+      </div>
+  </nav>
+
+      <div class="mobile-menu">
+          <ul>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-house"></i>Inicio</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-earth-americas"></i>Destinos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-gift"></i>Promoções</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+          </ul>
+
+          <div class="login-button">
+              <button><a href="#">Cadastrar</a></button>
+          </div>
+
+          <div class="login-button">
+              <button><a href="#">Entrar</a></button>
+          </div>
+
+      </div>
+</header>
+
+        <article>
+            
+          <h2>Pacotes Nacionais</h2>
+            
+<!----------------------------------------------1° LINHA DE CARDS--------------------------------------------------------->
+          <div class="container">
+          <div class="linha">
+            
+            <div class="linha1">
+            <div class="card">
+              <div><img src="imagens/bonito.jpg"></div>
+                <div class="titulo"><h3>Boipeba</h3></div>
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 788,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div>
+            </div>
+
+<!----------------------------------------------------------->
+            
+            <div class="card">
+              <div><img src="imagens/fernando de noronha.jpg"></div>   
+              <div class="titulo"><h3>Fernando de Noronha/PE</h3></div>        
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 1.299,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div>
+            </div>
+          
+<!----------------------------------------------------------->
+            <div class="card">
+              <div><img src="imagens/flecheiras.jpg"></div>             
+              <div class="titulo"><h3>Flexeiras/CE</h3></div>           
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 599,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div> 
+            </div>
+          </div>
+          </div>
+            
+<!----------------------------------------------2° LINHA DE CARDS--------------------------------------------------------->
+<div class="linha">
+  
+  <div class="linha2">
+    <div class="card">
+    <div><img src="imagens/Chapada-dos-Veadeiros-10-dicas-para-a-sua-viagem.png"></div> 
+    <div class="titulo"><h3>Chapada dos Veadeiros/GO</h3></div>  
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 799,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+ <!-----------------------------------------------------------> 
+
+  <div class="card">
+    <div><img src="imagens/bonito.jpg"></div>  
+    <div class="titulo"><h3>Bonito/MS</h3></div>   
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 699,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+<!----------------------------------------------------------->
+  <div class="card">
+    <div><img src="imagens/lencois maranhenses.jpg"></div>   
+    <div class="titulo"><h3>Lençóis Maranhenses/MA</h3></div>    
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 599,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div> 
+  </div>
+</div>
+
+</div>
+  <!----------------------------------------------3° LINHA DE CARDS--------------------------------------------------------->
+  <div class="linha">  
+
+<div class="linha3">
+    <div class="card">
+      <div><img src="imagens/gramado.jpg"></div>    
+      <div class="titulo"><h3>Gramado/RS</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 799,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+
+ <!----------------------------------------------------------->   
+    <div class="card">
+      <div><img src="imagens/poty1.jpg"></div>    
+      <div class="titulo"><h3>Canyon do Rio Poty/PI</h3></div>      
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 788,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+ 
+  <!----------------------------------------------------------->
+    <div class="card">
+      <div><img src="imagens/campos do jordao.png"></div>     
+      <div class="titulo"><h3>Campos do Jordão/SP</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 599,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div> 
+    </div>
+   </div>
+
+  </div>
+
+
+  <!----------------------------------------------4° LINHA DE CARDS--------------------------------------------------------->
+<div class="linha">
+  
+  <div class="linha4">
+    <div class="card">
+    <div><img src="imagens/holambra.webp"></div> 
+    <div class="titulo"><h3>Holambra/SP</h3></div>  
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 999,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+ <!-----------------------------------------------------------> 
+
+  <div class="card">
+    <div><img src="imagens/trancoso.webp"></div>  
+    <div class="titulo"><h3>Trancoso/BA</h3></div>   
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 1.199,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+<!----------------------------------------------------------->
+  <div class="card">
+    <div><img src="imagens/ubajara.jpg"></div>   
+    <div class="titulo"><h3>Ubajara/CE</h3></div>    
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 599,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div> 
+  </div>
+</div>
+
+</div>
+  <!----------------------------------------------5° LINHA DE CARDS--------------------------------------------------------->
+  <div class="linha">  
+
+<div class="linha5">
+    <div class="card">
+      <div><img src="imagens/jericoacoara.jpeg"></div>    
+      <div class="titulo"><h3>Jericoacoara/CE</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 1.199,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+
+ <!----------------------------------------------------------->   
+    <div class="card">
+      <div><img src="imagens/ilhabela.png"></div>    
+      <div class="titulo"><h3>Ilhabela/SP</h3></div>      
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 999,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+ 
+  <!----------------------------------------------------------->
+    <div class="card">
+      <div><img src="imagens/canela.jpg"></div>     
+      <div class="titulo"><h3>Canela/RS</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 499,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div> 
+    </div>
+   </div>
+
+  </div>
+
+</div>
+  
+
+            
+<!----------------------------------------------1° LINHA DE CARDS--------------------------------------------------------->
+          <div class="container1">
+
+            <h2>Pacotes Internacionais</h2>
+          <div class="linha">
+            
+            <div class="linha1">
+            <div class="card">
+              <div><img src="imagens/londres.jpg"></div>
+                <div class="titulo"><h3>Londres</h3></div>
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 3.499,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div>
+            </div>
+
+<!----------------------------------------------------------->
+            
+            <div class="card">
+              <div><img src="imagens/orlando.webp"></div>   
+              <div class="titulo"><h3>Orlando</h3></div>        
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 3.299,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div>
+            </div>
+          
+<!----------------------------------------------------------->
+            <div class="card">
+              <div><img src="imagens/italia.jpg"></div>             
+              <div class="titulo"><h3>Itália</h3></div>           
+              <div class="valores">
+                <div class="hospedagem">
+                <ul>
+                  <li>Hospedagem</li>
+                  <li>Café da manhã</li>
+                  <li>Aéreo</li>
+                </ul>
+                </div>
+                <div class="dias">
+                  <h4>5 dias</h4>
+                  <p>por</p>
+                  <h4>R$ 3.399,00</h4>
+                </div>
+              </div>
+              <div class="botao"><button>Confira</button></div> 
+            </div>
+          </div>
+          </div>
+            
+<!----------------------------------------------2° LINHA DE CARDS--------------------------------------------------------->
+<div class="linha">
+  
+  <div class="linha2">
+    <div class="card">
+    <div><img src="imagens/china.jpg"></div> 
+    <div class="titulo"><h3>China</h3></div>  
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 3.299,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+ <!-----------------------------------------------------------> 
+
+  <div class="card">
+    <div><img src="imagens/irlanda.jpg"></div>  
+    <div class="titulo"><h3>Irlanda</h3></div>   
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 3.299,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+<!----------------------------------------------------------->
+  <div class="card">
+    <div><img src="imagens/egito.jpg"></div>   
+    <div class="titulo"><h3>Egito</h3></div>    
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 3.399,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div> 
+  </div>
+</div>
+
+</div>
+  <!----------------------------------------------3° LINHA DE CARDS--------------------------------------------------------->
+  <div class="linha">  
+
+<div class="linha3">
+    <div class="card">
+      <div><img src="imagens/paris2.png"></div>    
+      <div class="titulo"><h3>Paris</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 3.599,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+
+ <!----------------------------------------------------------->   
+    <div class="card">
+      <div><img src="imagens/caribe.jpg"></div>    
+      <div class="titulo"><h3>Caribe</h3></div>      
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 3.299,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div>
+    </div>
+ 
+  <!----------------------------------------------------------->
+    <div class="card">
+      <div><img src="imagens/ushuaia.jpg"></div>     
+      <div class="titulo"><h3>Ushuaia</h3></div>    
+      <div class="valores">
+        <div class="hospedagem">
+        <ul>
+          <li>Hospedagem</li>
+          <li>Café da manhã</li>
+          <li>Aéreo</li>
+        </ul>
+        </div>
+        <div class="dias">
+          <h4>5 dias</h4>
+          <p>por</p>
+          <h4>R$ 3.199,00</h4>
+        </div>
+      </div>
+      <div class="botao"><button>Confira</button></div> 
+    </div>
+   </div>
+
+  </div>
+
+
+
+  <!----------------------------------------------4° LINHA DE CARDS--------------------------------------------------------->
+<div class="linha">
+  
+  <div class="linha4">
+    <div class="card">
+    <div><img src="imagens/patagonia.jpeg"></div> 
+    <div class="titulo"><h3>Patagonia</h3></div>  
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 2.899,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+ <!-----------------------------------------------------------> 
+
+  <div class="card">
+    <div><img src="imagens/machupicchu.webp"></div>  
+    <div class="titulo"><h3>Peru</h3></div>   
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 2.999,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div>
+  </div>
+
+<!----------------------------------------------------------->
+  <div class="card">
+    <div><img src="imagens/Cartagena.avif"></div>   
+    <div class="titulo"><h3>Cartagena</h3></div>    
+    <div class="valores">
+      <div class="hospedagem">
+      <ul>
+        <li>Hospedagem</li>
+        <li>Café da manhã</li>
+        <li>Aéreo</li>
+      </ul>
+      </div>
+      <div class="dias">
+        <h4>5 dias</h4>
+        <p>por</p>
+        <h4>R$ 2.799,00</h4>
+      </div>
+    </div>
+    <div class="botao"><button>Confira</button></div> 
+  </div>
+</div>
+
+</div>
+  
+</div>
+     
+<div class="btn-group" style="margin: auto; margin-top: 80px; margin-bottom: 30px;">
+  <a class="btn btn-primary btn-lg active" aria-current="page">Confira mais pacotes</a>
+  <a href="pagnacional.html" class="btn btn-primary btn-lg">Nacionais</a>
+  <a href="paginternacional.html" class="btn btn-primary btn-lg">Internacionais</a>
+ </div>
+            </article>
+          </main>  
+<!-----------------------------------------------------FOOTER------------------------------------------------------------>
+<footer>
+  <div id="footer_content">
+      <div id="footer_contacts">
+        <div class="logo1"><a href="principal.html"><img src="imagens/logo feriascom.svg" alt="logoferias"></a></div>
+          <p>O melhor destino você encontra aqui!</p>
+
+          <div id="footer_social_media">
+              <a href="#" class="footer-link" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#" class="footer-link" id="facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="#" class="footer-link" id="whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+              </a>
+          </div>
+      </div>
+      <ul class="footer-list">
+          <li>
+              <h3>Blog</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Pousadas</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Aventuras</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Gastronomia</a>
+          </li>
+      </ul>
+
+      <ul class="footer-list">
+          <li>
+              <h3>Produtos</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">App</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Desktop</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Cloud</a>
+          </li>
+      </ul>
+
+      <div id="footer_subscribe">
+          <h3>Inscreva-se</h3>
+
+          <p>
+            Inscreva-se e receba nossos melhores pacotes para você
+          </p>
+
+          <div id="input_group">
+              <input type="email" id="email">
+              <button>
+                  <i class="fa-regular fa-envelope"></i>
+              </button>
+
+          </div>
+      </div>
+  </div>
+
+  <div id="footer_copyright">
+      &#169
+      2023 todos os direitos reservados
+  </div>
+</footer>
+    
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+</html>

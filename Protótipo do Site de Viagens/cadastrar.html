@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="shortcut icon" href="imagens/feriasicone.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+<body>
+    <main>
+        
+
+      <!-----------------------------------------------------------CABEÇALHO---------------------------------------------------->
+      <header>
+        <nav class="nav-bar">
+          <div class="logo"><a href="principal.html"><img src="imagens/logo feriascom.svg" alt="logoferias"></a></div>
+      
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="principal.html" class="nav-link"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li class="nav-item"><a href="pagnacional.html" class="nav-link"><i class="fa-solid fa-earth-americas"></i>Destinos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-gift"></i>Promoções</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+                </ul>
+            </div>
+            
+            <div class="login-cadastro">
+            <div class="login-button">
+              <button><a href="#">Cadastrar</a></button>
+            </div>
+      
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            </div>
+      
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+      
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-earth-americas"></i>Destinos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-gift"></i>Promoções</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+                </ul>
+      
+                <div class="login-button">
+                    <button><a href="#">Cadastrar</a></button>
+                </div>
+      
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+      
+            </div>
+      </header>
+
+        <!-------------------------------------------------------CORPO----------------------------------------------------------->          
+                
+                <article>
+
+
+                      <div class="vale-presente"><img src="imagens/valedesconto3.png" alt="valedesconto"></div>                       
+                  
+                         <h2>Cadastre-se e ganhe descontos em nossos pacotes de viagem!</h2>
+                    <div class="formulario">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                          <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+                          <input type="text" class="form-control" id="validationCustom01" value="Nome" required>
+                          <div class="valid-feedback">
+                            Muito bom!
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustom02" class="form-label">Último nome</label>
+                          <input type="text" class="form-control" id="validationCustom02" value="Sobrenome" required>
+                          <div class="valid-feedback">
+                            Muito bom!
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustomUsername" class="form-label">Nome de usuário</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Por favor, escolha um usuário.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationCustom03" class="form-label">Endereço</label>
+                          <input type="text" class="form-control" id="validationCustom03" required>
+                          <div class="invalid-feedback">
+                            Por favor, digite uma cidade válida.
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="validationCustom04" class="form-label">Estado</label>
+                          <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Escolha...</option>
+                            <option>PI</option>
+                            <option>CE</option>
+                            <option>PE</option>
+                            <option>MA</option>
+                            <option>SE</option>
+                            <option>BA</option>
+                            <option>PB</option>
+                            <option>SP</option>
+                            <option>RJ</option>
+                            <option>RS</option>
+                            <option>CS</option>
+                            <option>MS</option>
+                            <option>AM</option>
+                            <option>AC</option>
+
+                          </select>
+                          <div class="invalid-feedback">
+                            Por favor, digite um Estado válido.
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="validationCustom05" class="form-label">CEP</label>
+                          <input type="text" class="form-control" id="validationCustom05" required>
+                          <div class="invalid-feedback">
+                            Por favor, digite um CEP válido.
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label">Senha</label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                              <span id="passwordHelpInline" class="form-text">
+                                A senha dever conter de 4-8 caracteres.
+                              </span>
+                            </div>
+                          </div>
+
+                          <div class="col-md-3">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label">Confirmar senha</label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                              <span id="passwordHelpInline" class="form-text">
+                                A senha dever conter de 4-8 caracteres.
+                              </span>
+                            </div>
+                          </div>
+
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Concordo com os termos e condições.
+                            </label>
+                            <div class="invalid-feedback">
+                              Você deve concordar com os termos e condições.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                      </form>
+                    </div> <!--Fim da <div class: "formulario"-->
+
+                        
+                </article>
+              </main>         
+        <!-----------------------------------------------------FOOTER------------------------------------------------------------>
+
+        <footer>
+          <div id="footer_content">
+              <div id="footer_contacts">
+                <div class="logo1"><a href="principal.html"><img src="imagens/logo feriascom.svg" alt="logoferias"></a></div>
+                  <p>O melhor destino você encontra aqui!</p>
+  
+                  <div id="footer_social_media">
+                      <a href="#" class="footer-link" id="instagram">
+                          <i class="fa-brands fa-instagram"></i>
+                      </a>
+  
+                      <a href="#" class="footer-link" id="facebook">
+                          <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+  
+                      <a href="#" class="footer-link" id="whatsapp">
+                          <i class="fa-brands fa-whatsapp"></i>
+                      </a>
+                  </div>
+              </div>
+              <ul class="footer-list">
+                  <li>
+                      <h3>Blog</h3>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Pousadas</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Aventuras</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Gastronomia</a>
+                  </li>
+              </ul>
+  
+              <ul class="footer-list">
+                  <li>
+                      <h3>Produtos</h3>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">App</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Desktop</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Cloud</a>
+                  </li>
+              </ul>
+  
+              <div id="footer_subscribe">
+                  <h3>Inscreva-se</h3>
+  
+                  <p>
+                    Inscreva-se e receba nossos melhores pacotes para você
+                  </p>
+  
+                  <div id="input_group">
+                      <input type="email" id="email">
+                      <button>
+                          <i class="fa-regular fa-envelope"></i>
+                      </button>
+  
+                  </div>
+              </div>
+          </div>
+  
+          <div id="footer_copyright">
+              &#169
+              2023 todos os direitos reservados
+          </div>
+      </footer>
+                    
+                    
+                
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        </body>
+</body>
+</html>
