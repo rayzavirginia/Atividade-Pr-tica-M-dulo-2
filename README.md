@@ -1,4 +1,4 @@
-# Atividade-Pr-tica-do-M-dulo-3
+# Atividade-Pr-tica-do-M-dulo-2
 ## Sobre o projeto
 
 Trata-se de dois projetos: um protótipo de site de viagens em HTML, CSS e Bootstrapp; e uma simulação de cadastro de clientes e destinos em pseudocódigo Portugol.
